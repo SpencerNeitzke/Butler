@@ -10,29 +10,30 @@ Butler will only listen for commands from approved bot masters. These can be cha
 ## Commands
 
 ### !assist
-> Go to a players position.  
+Go to a players position.  
 > !assist [Player_Name]
 
 ### !mine
-> Mine specified ores in specified amounts.  
+Mine specified ores in specified amounts.  
+If no amount is specified Butler will mine until the `!stop` command is issued. 
 > !mine [Ore] [Amount]  
-> If no amount is specified Butler will mine until the `!stop` command is issued. 
 
 ### !bring 
-> Bring a block to the user issuing the command.  
+Bring a block to the user issuing the command.  
 > !bring [Block] [Amount]
 
 ### !inv or !inventory
-> List the items in Butler's inventory.
+List the items in Butler's inventory.
+> !inv
 
 ### !day
-> Set the time in the current world to `day`.
+Set the time in the current world to `day`.
 
 ### !night
-> Set the time in the current world to `night`.
+Set the time in the current world to `night`.
 
 ### !rain
-> Make it rain.
+Make it rain.
 
 ### !sun
-> Turn the weather to sun.
+Turn the weather to sun.
